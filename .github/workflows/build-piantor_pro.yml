@@ -9,3 +9,4 @@ jobs:
         uses: ./.github/workflows/main.yml
         with:
             keyboard: '["beekeeb/piantor_pro"]'
+            nav: '["vi"]'
