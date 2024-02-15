@@ -15,7 +15,26 @@
 ) \
 LAYOUT_split_3x6_3( \
 KC_ESC,  K00,  K01,  K02,  K03,  K04,         K05,  K06,  K07,  K08,  K09,  XXX, \
-XXX,     K10,  K11,  K12,  K13,  K14,         K15,  K16,  K17,  K18,  K19,  XXX, \
+MO(HYPER),     K10,  K11,  K12,  K13,  K14,         K15,  K16,  K17,  K18,  K19,  XXX, \
 XXX,     K20,  K21,  K22,  K23,  K24,         K25,  K26,  K27,  K28,  K29,  XXX , \
                   K32,  K33,  K34,         K35,  K36,  K37 \
+) \
+MIRYOKU_LAYERMAPPING_HYPER( \
+XXX,  HYPR(KC_1),  HYPR(KC_2),  HYPR(KC_3), HYPR(KC_4),  HYPR(KC_5),         XXX,  XXX,  XXX,  XXX,  XXX,  XXX, \
+XXX,  XXX,  XXX,  XXX,  XXX,  XXX,         XXX,  XXX,  XXX,  XXX,  XXX,  XXX, \
+XXX,  XXX,  XXX,  XXX,  XXX,  XXX,         XXX,  XXX,  XXX,  XXX,  XXX,  XXX , \
+                  XXX,  XXX,  XXX,         XXX,  XXX,  XXX \
 )
+
+#define MIRYOKU_LAYER_LIST \
+MIRYOKU_X(BASE,   "Base") \
+MIRYOKU_X(EXTRA,  "Extra") \
+MIRYOKU_X(TAP,    "Tap") \
+MIRYOKU_X(BUTTON, "Button") \
+MIRYOKU_X(NAV,    "Nav") \
+MIRYOKU_X(MOUSE,  "Mouse") \
+MIRYOKU_X(MEDIA,  "Media") \
+MIRYOKU_X(NUM,    "Num") \
+MIRYOKU_X(SYM,    "Sym") \
+MIRYOKU_X(FUN,    "Fun") \
+MIRYOKU_X(HYPER,  "Hyper")
