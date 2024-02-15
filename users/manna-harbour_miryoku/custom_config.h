@@ -33,11 +33,11 @@ XXX,     K20,  K21,  K22,  K23,  K24,         K25,  K26,  K27,  K28,  K29,  XXX 
                   K32,  K33,  K34,         K35,  K36,  K37 \
 )
 
-#define MIRYOKU_LAYER_HYPER( \
+#define MIRYOKU_LAYER_HYPER \
 XXX,  HYPR(KC_1),  HYPR(KC_2),  HYPR(KC_3), HYPR(KC_4),  HYPR(KC_5),         XXX,  XXX,  XXX,  XXX,  XXX,  XXX, \
 XXX,  XXX,  XXX,  XXX,  XXX,  XXX,         XXX,  XXX,  XXX,  XXX,  XXX,  XXX, \
 XXX,  XXX,  XXX,  XXX,  XXX,  XXX,         XXX,  XXX,  XXX,  XXX,  XXX,  XXX , \
                   XXX,  XXX,  XXX,         XXX,  XXX,  XXX \
-)
+
 
 #define MIRYOKU_LAYERMAPPING_HYPER MIRYOKU_MAPPING
