@@ -82,4 +82,4 @@ fi
 	-e SKIP_GIT="$SKIP_GIT" \
 	-e MAKEFLAGS="$MAKEFLAGS" \
 	qmkfm/qmk_cli \
-	make "$keyboard${keymap:+:$keymap}${target:+:$target}"
+	make "$keyboard${keymap:+:$keymap}${target:+:$target}" MIRYOKU_NAV=VI
